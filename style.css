@@ -1,0 +1,70 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Define a fonte padrão para o corpo da página, usando uma série de fontes alternativas se necessário */
+  display: flex; /* Define um layout flexível para o corpo da página, permitindo a organização de elementos internos */
+  justify-content: center; /* Centraliza horizontalmente os elementos filhos dentro do corpo */
+  align-items: center; /* Centraliza verticalmente os elementos filhos dentro do corpo */
+  height: 100px; /* Define a altura do corpo como 100 pixels */
+  margin: 0; /* Remove a margem padrão ao redor do corpo da página */
+}
+
+.calculadora {
+  border: 2px solid rgb(24, 24, 24); /* Adiciona uma borda de 2 pixels ao redor da calculadora com cor sólida */
+  background-color: rgb(59, 59, 59); /* Define a cor de fundo da calculadora */
+  border-radius: 7px; /* Arredonda os cantos da calculadora em 7 pixels */
+  padding: 10px; /* Adiciona um preenchimento interno de 10 pixels dentro da calculadora */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 3); /* Adiciona uma sombra ao redor da calculadora para dar um efeito de profundidade */
+  align-self: flex-start; /* Alinha a calculadora ao início do eixo principal (superior) */
+  margin-top: 20%; /* Adiciona uma margem superior de 20% do tamanho do elemento pai */
+}
+
+
+#Display {
+  width: 100%; /* Define a largura do display para ocupar 100% do elemento pai */
+  padding: 5px; /* Adiciona um preenchimento interno de 5 pixels ao display */
+  font-size: 24px; /* Define o tamanho da fonte do texto dentro do display */
+  text-align: right; /* Alinha o texto do display à direita */
+  border: none; /* Remove qualquer borda do display */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+#Clear {
+  background-color: brown; /* Define a cor de fundo do botão de limpar como marrom */
+  color: aliceblue; /* Define a cor do texto do botão de limpar como azul claro */
+  padding-right: 47%; /* Adiciona um preenchimento à direita de 47% da largura do botão */
+  padding-left: 47%; /* Adiciona um preenchimento à esquerda de 47% da largura do botão */
+  margin-top: 10px;
+}
+
+
+.botoes {
+  display: grid; /* Define um layout de grade para os botões */
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Cria 4 colunas de largura igual para a grade de botões */
+  gap: 10px; /* Define um espaçamento de 10 pixels entre os botões */
+  margin-top: 10px; /* Adiciona uma margem superior de 10 pixels acima da grade de botões */
+}
+
+button {
+  font-size: 24px; /* Define o tamanho da fonte do texto dentro dos botões */
+  padding: 10px; /* Adiciona um preenchimento de 10 pixels dentro dos botões */
+  cursor: pointer; /* Muda o cursor para uma mão ao passar o mouse sobre o botão, indicando que ele é clicável */
+}
+
+.operador {
+  background-color: rgb(
+    17,
+    2,
+    71
+  ); /* Define a cor de fundo dos botões de operador */
+  color: aliceblue; /* Define a cor do texto dos botões de operador como azul claro */
+}
+
+button:hover {
+  background-color: rgb(
+    71,
+    152,
+    223
+  ); /* Muda a cor de fundo dos botões quando o mouse passa sobre eles */
+}

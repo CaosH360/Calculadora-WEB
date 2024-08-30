@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- declaração de referencia css, a partir do endereço 
+    vai conectar o codigo html com o css vai receber as customizaçoes do css -->
+  </head>
+  <body>
+    <div class="calculadora">
+      <!-- declaração de div para receber as customizações do css - div é divisão, uma divisão para 
+      receber configuraçãoes e customisações, como um ponto para ser identificado, essa div recebe uma classe, 
+      e é essa clase que recebe as customizações do css, ou ate ações do JS -->
+      <input type="text" id="Display" readonly />
+      <!-- declaração de input, uma celula do html que recebe dados, depois dele tem seu tipo,
+    o readonly define que ele é so para leitura, nao permitindo clicar 
+    e adicionar informação para que so possa fazer isso com os botõess -->
+      <button class="operadorClear" id="Clear" onclick="LimpaDisplay('')">C</button>
+      <div class="botoes">
+        <!-- Decalração de div para os botoes para customizar separadamente cada area -->
+        <button class="numero" onclick="DigitarNoDisplay('7')">7</button>
+        <button class="numero" onclick="DigitarNoDisplay('8')">8</button>
+        <button class="numero" onclick="DigitarNoDisplay('9')">9</button>
+        <button class="operador" onclick="DigitarNoDisplay('+')">+</button>
+        <button class="numero" onclick="DigitarNoDisplay('4')">4</button>
+        <button class="numero" onclick="DigitarNoDisplay('5')">5</button>
+        <button class="numero" onclick="DigitarNoDisplay('6')">6</button>
+        <button class="operador" onclick="DigitarNoDisplay('-')">-</button>
+        <button class="numero" onclick="DigitarNoDisplay('1')">1</button>
+        <button class="numero" onclick="DigitarNoDisplay('2')">2</button>
+        <button class="numero" onclick="DigitarNoDisplay('3')">3</button>
+        <button class="operador" onclick="DigitarNoDisplay('*')">x</button>
+        <button class="numero" onclick="DigitarNoDisplay('0')">0</button>
+        <button class="caracter" onclick="DigitarNoDisplay('.')">.</button>
+        <button class="operador" onclick="DigitarNoDisplay('/')">÷</button>
+        <button class="operador" onclick="Resultado()">=</button>
+        <!-- Declaração de botão clicavel, a partir dele podemos 
+      definir função e ações para esses botões. Ele possui uma classe 
+      onde podemos usar css para customizar ou js para dar funções gerais -->
+        <!-- Novamente cada classe é usada para as customizações de cada elemento, ]
+      os parametros "onclick" sao usados para tornar clicavel o elemento em questao, pode ser usado em botões links e 
+      qualquer outro elemento, a partir dele é clamada uma função tal qual seu valor "onclick="valor"" -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+<!-- Declaração de referência ao código JavaScript. O script.js contém a lógica para a funcionalidade da calculadora. -->
+  </body>
+</html>
