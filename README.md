@@ -7,10 +7,9 @@ Uma calculadora simples desenvolvida com HTML, CSS e JavaScript. Este projeto é
 
 - [Introdução]
 - [Funcionalidades]
-- [Tecnologias Utilizadas]
+- [Tecnologias_Utilizadas]
 - [Instalação]
-- [Como Usar]
-- [Resultado]
+- [Como_Usar]
 - [Contribuiçã]
 - [Licença]
 
@@ -56,9 +55,6 @@ Este projeto é uma calculadora de quatro operações (adição, subtração, mu
 3. Clique no botão `=` para ver o resultado.
 4. Utilize o botão `C` para limpar o display e começar um novo cálculo.
 
-## Resultado
-
-![Captura de tela 2024-08-30 110721.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ea91369e-fbc7-4123-b5cf-f0e578bdaad9/1306d3c4-661c-4742-8f63-619244039bac/Captura_de_tela_2024-08-30_110721.png)
 
 ## Contribuição
 
