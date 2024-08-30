@@ -14,7 +14,7 @@ body {
   padding: 10px; /* Adiciona um preenchimento interno de 10 pixels dentro da calculadora */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 3); /* Adiciona uma sombra ao redor da calculadora para dar um efeito de profundidade */
   align-self: flex-start; /* Alinha a calculadora ao início do eixo principal (superior) */
-  margin-top: 20%; /* Adiciona uma margem superior de 20% do tamanho do elemento pai */
+  margin-top: 20%; /* Adiciona uma margem superior de 20% do tamanho do elemento pai*/
 }
 
 
