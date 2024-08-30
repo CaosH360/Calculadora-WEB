@@ -88,6 +88,7 @@ Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga as 
     
 5. Abra um Pull Request.
 
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/CaosH360/Calculadora-WEB/blob/main/LICENSE) para mais detalhes.
