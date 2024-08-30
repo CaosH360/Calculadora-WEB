@@ -5,7 +5,7 @@ function DigitarNoDisplay(value) { // Função chamada ao digitar um número ou 
     updateDisplay(); // Atualiza o display da calculadora com o novo valor
 } 
 
-function LimpaDisplay() { // Função para limpar o display da calculadora
+function LimpaDisplay() { // Função para limpar o display da calculadora 
     displayValue = ''; // Reseta 'displayValue' para uma string vazia
     updateDisplay(); // Atualiza o display para refletir o valor limpo
 } 
